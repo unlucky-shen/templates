@@ -1,0 +1,77 @@
+/* Nordic color scheme */
+
+:root {
+	--none: transparent;
+
+	--black0: #191D24;
+	--black1: #1E222A;
+	--black2: #222630;
+
+	--gray0: #242933;
+	--gray1: #2E3440;
+	--gray2: #3B4252;
+	--gray3: #434C5E;
+	--gray4: #4C566A;
+	--gray5: #60728A;
+
+	--white0-normal: #BBC3D4;
+	--white0-reduce-blue: #C0C8D8;
+	--white1: #D8DEE9;
+	--white2: #E5E9F0;
+	--white3: #ECEFF4;
+
+	--blue0: #5E81AC;
+	--blue1: #81A1C1;
+	--blue2: #88C0D0;
+
+	--cyan-base: #8FBCBB;
+	--cyan-bright: #9FC6C5;
+	--cyan-dim: #80B3B2;
+
+	--red-base: #BF616A;
+	--red-bright: #C5727A;
+	--red-dim: #B74E58;
+
+	--orange-base: #D08770;
+	--orange-bright: #D79784;
+	--orange-dim: #CB775D;
+
+	--yellow-base: #EBCB8B;
+	--yellow-bright: #EFD49F;
+	--yellow-dim: #E7C173;
+
+	--green-base: #A3BE8C;
+	--green-bright: #B1C89D;
+	--green-dim: #97B67C;
+
+	--magenta-base: #B48EAD;
+	--magenta-bright: #BE9DB8;
+	--magenta-dim: #A97EA1;
+
+	--bg: var(--gray0);
+	--bg-dark: var(--black0);
+	--bg-light: var(--gray1);
+	--bg-sidebar: var(--gray0);
+	--bg-statusline: var(--black0);
+	--bg-fold: var(--gray2);
+
+	--fg: var(--white0-normal);
+	--fg-bright: var(--white1);
+	--fg-dark: var(--white0-normal);
+	--fg-sidebar: var(--gray2);
+	--fg-selected: var(--white1);
+
+	--border-fg: var(--black0);
+	--border-bg: var(--gray0);
+
+	--comment: var(--gray4);
+
+	--error: var(--red-bright);
+	--warn: var(--yellow-base);
+	--hint: var(--green-bright);
+	--info: var(--blue2);
+
+	--diff-add: #304033;
+	--diff-delete: #402D33;
+	--diff-change: #2E3A48;
+}
